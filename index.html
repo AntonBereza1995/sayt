@@ -5,60 +5,81 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Бомбочки от Березки</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+    rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css">
+    <link rel="stylesheet" href="css/styles.css">
 </head>
-<body>
-    <header>
-        <nav>
-            <a href="#">Бомбочки от Березки</a>
-                <ul>
-                    <li> 
-                        <a href="#">Главная</a>
+<body class="body">
+    <header class="header">
+        <div class="container">
+        <nav class="navigation">
+            <a href="index.html">Бомбочки от Березки</a>
+                <ul class="site-nav">
+                    <li class="item"> 
+                        <a href="index.html">Главная</a>
                     </li>
-                    <li> 
-                        <a href="#">Галерея</a>
+                    <li class="item"> 
+                        <a href="galery.html">Галерея</a>
                     </li>   
-                    <li> 
-                        <a href="#">Прайсы</a>
+                    <li class="item"> 
+                        <a href="price.html">Прайсы</a>
                     </li>
-                    <li> 
-                        <a href="#">Контакты</a>
+                    <li class="item"> 
+                        <a href="contact.html">Контакты</a>
                     </li>
                 </ul>
             </nav>
-            <ul>
-                <li> 
-                    <a href="#"></a>
-                </li>
-                <li> 
-                    <a href="#"></a>
-                </li>
-            </ul>
+            <ul class="contact-nav">
+                <li class="item">
+                    <a href="mailto:" class="link">
+                      <svg class="contact-icon" width="16" height="12">
+                          <use href="./images/icons.svg#icon-envelope"></use>
+                      </svg>  
+                      
+                  </a>
+              </li>
+                <li class="item">
+                    <a href="tel:8(901)907-10-08" class="link">
+                      <svg class="contact-icon" width="10" height="16">
+                          <use href="./images/icons.svg#icon-smartphone"></use>
+                      </svg>
+                      8(901)907-10-08
+                      </a>
+                  </li>
+              </ul>
+        </div>
     </header>
     <main>
-        <section class="avatar">
-            <h1>Бомбочки для ванн и домашнняя косметика</h1>
+        <section class="hero">
+           <div class="container">
+             <h1>Бомбочки для ванн и домашнняя косметика</h1>
+           </div>
         </section>
-        <section class="activity">
+        <section class="section">
             <h2>Чем я занимаюсь</h2>
-            <p>Изготавливаю бомбочки для ванн, скрабы, мыло ручной работы</p>
-            <ul>
-                <li>
-                    <img src="./images/box_1.jpg" alt="бомбочки" width="370">
+            <p>Изготавливаю бомбочки для ванн, скрабы, мыло ручной работы и многое другое</p>
+            <ul class="portfolio">
+                <li class="portfolio-box">
+                    <img src="./images/14.jpg" alt="бомбочки" width="370">
                 </li>
-                <li>
-                    <img src="./images/box_2.jpg" alt="скрабы" width="370">
+                <li class="portfolio-box">
+                    <img src="./images/22.jpg" alt="скрабы" width="370">
                 </li>
-                <li>
-                    <img src="./images/box_3.jpg" alt="мыло" width="370">
+                <li class="portfolio-box">
+                    <img src="./images/25.jpg" alt="мыло" width="370" height="278">
                 </li>
             </ul>
+            <p>Подробнее ознакомится со всей продукцией вы можете во вкладке <a href="galery.html">Галерея</a>, а узнать цены по <a href="price.html">Прайсам</a>. 
+            Чтобы связаться со мной пройдите в <a href="contact.html">Контакты</a>, там подробная информация обо мне.</p>
         </section>
     </main>
 
     <footer>
-        <a href="#"></a>
+        <a href="index.html">Бомбочки от Березки</a>
         <address>
-            <p>г. </p>
+            <p>г. Протвино </p>
             <ul>
                 <li> 
                     <a href="#"></a>
